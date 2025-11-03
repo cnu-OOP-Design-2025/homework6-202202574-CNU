@@ -1,6 +1,6 @@
 #include <iostream>
 #include "bird.h"
-＃include "bird.cpp"
+#include "bird.cpp"
 
 
 int main() {
