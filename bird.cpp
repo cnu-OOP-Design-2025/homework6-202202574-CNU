@@ -7,7 +7,7 @@ public:
         cry();
     }
     void cry() {
-        std::cout << "nnnnnn" << std::endl;
+        std::cout << "Quack!" << std::endl;
     }
     virtual ~Duck() {
         cry();
