@@ -7,7 +7,7 @@ public:
         cry();
     }
     void cry() {
-        std::cout << "Quake" << std::endl;
+        std::cout << "Quack!" << std::endl;
     }
     virtual ~Duck() {
         cry();
@@ -20,7 +20,7 @@ public:
         cry();
     }
     void cry() {
-        std::cout << "Squake" << std::endl;
+        std::cout << "Squawk!" << std::endl;
     }
     void fly() {
         std::cout << "This bird can't fly." << std::endl;
@@ -36,7 +36,7 @@ public:
         cry();
     }
     void cry() {
-        std::cout << "Screech" << std::endl;
+        std::cout << "Screech!" << std::endl;
     }
     void swim() {
         std::cout << "This bird can't swim." << std::endl;
