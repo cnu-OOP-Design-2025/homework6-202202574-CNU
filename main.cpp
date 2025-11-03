@@ -2,6 +2,7 @@
 #include "bird.h"
 
 int main() {
+
     Bird* birds[] = {
         new Duck(),
         new Penguin(),
@@ -20,9 +21,9 @@ int main() {
     }
 
     // Clean up
-   for (int i = numBirds - 1; i >= 0; --i) { 
-    delete birds[i];
-}
+    for (int i = 0; i < numBirds; ++i) {
+        delete birds[i];
+    }
 
     return 0;
 }

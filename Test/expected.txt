@@ -26,4 +26,3 @@ Squawk!
 Penguin has died
 Screech!
 Eagle has died
-
